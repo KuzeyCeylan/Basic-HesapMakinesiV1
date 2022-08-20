@@ -83,7 +83,7 @@ while True:
 
         if i1 == "+":
             output = d1 + d2
-        print(renkler.YESIL + f"SONUÇ = {output}\n\n")
+            print(renkler.YESIL + f"SONUÇ = {output}\n\n")
 
     except ValueError:
         print(renkler.KIRMIZI + "LÜTFEN RAKAMSAL DEĞER GİRİNİZ. AKSİ TAKDİRDE PROGRAM ÇALIŞMAZ.")
